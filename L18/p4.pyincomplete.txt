@@ -1,0 +1,23 @@
+import matplitlib.pyplot as plt
+import numpy as np
+
+products = ['laptop','printer','router']
+reena=[10,25,15]
+veena=[5,30,12]
+
+x=np.arrange(len(products))
+
+plt.bar(x,reena,label='Reena',width=0.25)
+plt.bar(x+0.25,veena,label='Reena',width=0.25)
+
+plt.xticks()
+
+plt.title()
+plt.xlabel()
+plt.ylabel()
+
+ply.legend()
+plt.grid()
+plt.savefig("performance.png")
+plt.show()
+

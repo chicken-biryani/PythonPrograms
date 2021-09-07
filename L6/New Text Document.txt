@@ -1,0 +1,14 @@
+#wap to read marks and print highest marks
+
+data=[]
+reply = input("do u want to enters marks of students  y/n")
+while reply == 'y':
+	ele = int(input("enter element"))
+	data.append(ele)
+	reply = input("do u want to add some more marks y/n")
+
+print(data)
+
+
+data.sort()
+print(data[-1])

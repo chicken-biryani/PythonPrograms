@@ -1,0 +1,11 @@
+# for palindrome
+
+s1= input("enter a string ")
+
+s2=s1[::-1] 
+
+if(s1==s2):  #s1.lower == s2.lower (or upper in s1 s2)for case insensitive
+	print("palindrome")
+else:
+	print("not a palindrome")
+
